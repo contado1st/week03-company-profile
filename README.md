@@ -225,4 +225,18 @@ All application user interfaces, component layouts, and backend code screenshots
 * **Master Blade Layout (`app.blade.php`)**
   ![Blade Layout](app/screenshots/Blade.png)
 
+  * **Footer Component**
+  ![Footer Component](app/screenshots/Footer.png)
+
+### Development Environment & Repository
+* **VS Code Project Workspace**
+  ![VS Code Project Workspace](app/screenshots/VS-Code-Project.png)
+
+* **Laravel Folder Structure**
+  ![Laravel Folder Structure](app/screenshots/Laravel-Folder-Structure.png)
+
+* **GitHub Repository & Commit History**
+  ![GitHub Repository](app/screenshots/GitHub-Repository.png)
+
   ---
+
