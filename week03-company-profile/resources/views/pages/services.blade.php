@@ -13,7 +13,7 @@
         <!-- Service 1: Original Character Design -->
         <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
             <div class="h-48 bg-black overflow-hidden border-b-4 border-red-600">
-                <img src="{{ asset('img/oc-design.jpg') }}" alt="Original Character Design" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <img src="{{ asset('img/oc-design.png') }}" alt="Original Character Design" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6">
                 <h3 class="font-bold text-xl mb-3 text-white uppercase">Original Character (OC) Design</h3>
@@ -24,7 +24,7 @@
         <!-- Service 2: Game Assets & Splash Art -->
         <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
             <div class="h-48 bg-black overflow-hidden border-b-4 border-red-600">
-                <img src="{{ asset('img/splash-art.jpg') }}" alt="Game Assets & Splash Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <img src="{{ asset('img/splash-art.png') }}" alt="Game Assets & Splash Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6">
                 <h3 class="font-bold text-xl mb-3 text-white uppercase">Game Assets & Splash Art</h3>
@@ -35,7 +35,7 @@
         <!-- Service 3: 3D Modeling & Asset Creation -->
         <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
             <div class="h-48 bg-black overflow-hidden border-b-4 border-red-600">
-                <img src="{{ asset('img/3d-render.jpg') }}" alt="3D Modeling & Asset Creation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <img src="{{ asset('img/3d-render.png') }}" alt="3D Modeling & Asset Creation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
             <div class="p-6">
                 <h3 class="font-bold text-xl mb-3 text-white uppercase">3D Modeling & Asset Creation</h3>
