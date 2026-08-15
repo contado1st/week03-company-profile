@@ -98,3 +98,84 @@ Route::get('/about', [CompanyController::class, 'about'])->name('about');
 Route::get('/services', [CompanyController::class, 'services'])->name('services');
 Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
 ```
+
+---
+
+## 6. Controllers
+
+### Purpose and Benefits of Controllers
+Controllers encapsulate application logic, removing bloated closure code directly from routing files. They coordinate between requests, data filtering, and view presentation.
+
+### Controller Methods (`CompanyController.php`)
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class CompanyController extends Controller
+{
+    public function home()
+    {
+        return view('pages.home');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
+
+    public function services()
+    {
+        return view('pages.services');
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+}
+```
+
+---
+
+## 7. Blade Templating Engine
+
+### Overview of Blade Features
+Laravel’s native Blade Templating Engine allows developers to write clean templates with plain PHP code integration while providing powerful structural directives:
+* **`@extends`**: Inherits a master layout wrapper.
+* **`@section` / `@yield`**: Defines and injects dynamic content sections into layout placeholders.
+* **`@include`**: Imports modular components (like navigation bars and footers).
+
+### Sample Code Snippet (`resources/views/layouts/app.blade.php`)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'RedLine Creative Studios')</title>
+    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
+    <style>
+        body {
+            background-color: #0b0b0b;
+            background-image: 
+                linear-gradient(to right, rgba(220, 38, 38, 0.07) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(220, 38, 38, 0.07) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="text-gray-300 flex flex-col min-h-screen font-sans">
+    @include('components.navbar')
+    <main class="flex-grow">
+        @yield('content')
+    </main>
+    @include('components.footer')
+</body>
+</html>
+```
+
+---
+
