@@ -71,3 +71,30 @@ HTML Response
  │
  ▼
 Browser
+```
+
+*(Note: The visual architecture diagram is saved under `documentation/architecture-diagram.png` in the repository.)*
+
+---
+
+## 5. Laravel Routing
+
+### Overview of Routing
+Routing in Laravel acts as the traffic controller of the web application, intercepting incoming URL requests and mapping them either to closure functions or specific controller methods.
+
+### Key Routing Concepts Used:
+* **GET Requests**: Used to retrieve and display web pages (`Route::get(...)`).
+* **Named Routes**: Assigning unique handles (e.g., `->name('home')`) to routes allows dynamic URL generation across Blade templates via the `route()` helper function.
+
+### Route Definitions (`routes/web.php`)
+```php
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CompanyController;
+
+Route::get('/', [CompanyController::class, 'home'])->name('home');
+Route::get('/about', [CompanyController::class, 'about'])->name('about');
+Route::get('/services', [CompanyController::class, 'services'])->name('services');
+Route::get('/contact', [CompanyController::class, 'contact'])->name('contact');
+```
