@@ -1,9 +1,9 @@
-<nav class="bg-gray-900 text-white p-4 flex justify-between items-center px-8">
-    <div class="text-xl font-bold">TechCorp Solutions</div>
-    <div class="space-x-6">
-        <a href="{{ route('home') }}" class="hover:text-blue-400">Home</a>
-        <a href="{{ route('about') }}" class="hover:text-blue-400">About</a>
-        <a href="{{ route('services') }}" class="hover:text-blue-400">Services</a>
-        <a href="{{ route('contact') }}" class="hover:text-blue-400">Contact</a>
+<nav class="bg-black text-white p-5 flex justify-between items-center border-b border-red-800">
+    <div class="text-2xl font-bold tracking-wider text-red-600">REDLINE <span class="text-white">STUDIOS</span></div>
+    <div class="space-x-6 text-sm font-semibold uppercase tracking-wide">
+        <a href="{{ route('home') }}" class="hover:text-red-500 transition-colors">Home</a>
+        <a href="{{ route('about') }}" class="hover:text-red-500 transition-colors">About</a>
+        <a href="{{ route('services') }}" class="hover:text-red-500 transition-colors">Services</a>
+        <a href="{{ route('contact') }}" class="hover:text-red-500 transition-colors">Contact</a>
     </div>
 </nav>
