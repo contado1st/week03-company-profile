@@ -1,26 +1,47 @@
 @extends('layouts.app')
-@section('title', 'Services - TechCorp')
+@section('title', 'Services - RedLine Creative Studios')
 
 @section('content')
-<div class="max-w-6xl mx-auto py-12 px-4">
-    <h1 class="text-3xl font-bold text-center mb-8">Our Services</h1>
-    <div class="grid md:grid-cols-3 gap-6">
-        @php
-            $services = [
-                ['title' => 'Web Development', 'desc' => 'Custom dynamic applications build with modern frameworks.'],
-                ['title' => 'Mobile Development', 'desc' => 'Cross-platform iOS and Android app solutions.'],
-                ['title' => 'UI/UX Design', 'desc' => 'User-centric interfaces optimized for engagement.'],
-                ['title' => 'Cloud Solutions', 'desc' => 'Scalable infrastructure and cloud deployment.'],
-                ['title' => 'Cybersecurity', 'desc' => 'Robust security auditing and threat defense.'],
-                ['title' => 'IT Consulting', 'desc' => 'Expert strategic guidance for business systems.']
-            ];
-        @endphp
-        @foreach($services as $service)
-            <div class="p-6 bg-white shadow rounded border hover:border-blue-500">
-                <h3 class="font-bold text-xl mb-2">{{ $service['title'] }}</h3>
-                <p class="text-gray-600 text-sm">{{ $service['desc'] }}</p>
+<div class="max-w-6xl mx-auto py-16 px-4">
+    <!-- Header -->
+    <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold text-white uppercase mb-2">Our Creative <span class="text-red-600">Arsenal</span></h1>
+        <p class="text-xl text-gray-400">Professional art services for games, media, and personal commissions.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
+            <div class="h-48 bg-black flex items-center justify-center border-b-4 border-red-600">
+                <span class="text-gray-600 font-bold text-2xl uppercase tracking-widest">[ OC Art Placeholder ]</span>
             </div>
-        @endforeach
+            <div class="p-6">
+                <h3 class="font-bold text-xl mb-3 text-white uppercase">Original Character (OC) Design</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Breathe life into your ideas. Our concept artists specialize in designing unique, highly detailed original characters complete with turnaround sheets, expression charts, and dynamic action poses.</p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
+            <div class="h-48 bg-black flex items-center justify-center border-b-4 border-red-600">
+                <span class="text-gray-600 font-bold text-2xl uppercase tracking-widest">[ Splash Art Placeholder ]</span>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-xl mb-3 text-white uppercase">Game Assets & Splash Art</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Need high-energy visuals? We produce vibrant, highly polished splash art and 2D assets perfectly suited for modern gaming, particularly inspired by dynamic action and gacha-style aesthetics.</p>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-gray-800 rounded overflow-hidden shadow-lg group hover:-translate-y-2 transition-transform duration-300">
+            <div class="h-48 bg-black flex items-center justify-center border-b-4 border-red-600">
+                <span class="text-gray-600 font-bold text-2xl uppercase tracking-widest">[ 3D Render Placeholder ]</span>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-xl mb-3 text-white uppercase">3D Modeling & Asset Creation</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Taking concepts from 2D into the third dimension. Using tools like Blender, we sculpt, texture, and render characters and environments that are ready for integration into your next big project.</p>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
