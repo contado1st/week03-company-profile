@@ -39,7 +39,7 @@
             </div>
             <div class="p-6">
                 <h3 class="font-bold text-xl mb-3 text-white uppercase">3D Modeling & Asset Creation</h3>
-                <p class="text-gray-400 text-sm leading-relaxed">Taking concepts from 2D into the third dimension. Using tools like Blender, we sculpt, texture, and render characters and environments that are ready for integration into your next big project.</p>
+                <p class="text-gray-400 text-sm leading-relaxed">Taking concepts from 2D into the third dimension. Using tools like Blender, Blockbench, we sculpt, texture, and render characters, assets and environments that are ready for integration into your next big project.</p>
             </div>
         </div>
     </div>
