@@ -197,13 +197,13 @@ All application user interfaces, component layouts, and backend code screenshots
 
 ### Web Application Pages
 * **Home Page**
-  ![Home Page](app/screenshots/Home-Page.png)
+  ![Home Page](screenshots/Home-Page.png)
 
 * **About Page**
   ![About Page](screenshots/About-Page.png)
 
 * **Services Page**
-  ![Services Page](screenshots/Services-Page.jpg)
+  ![Services Page](screenshots/Services-Page.png)
 
 * **Contact Page**
   ![Contact Page](screenshots/Contact-Pag.png)
