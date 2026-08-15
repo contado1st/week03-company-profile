@@ -200,43 +200,43 @@ All application user interfaces, component layouts, and backend code screenshots
   ![Home Page](app/screenshots/Home-Page.png)
 
 * **About Page**
-  ![About Page](app/screenshots/About-Page.png)
+  ![About Page](screenshots/About-Page.png)
 
 * **Services Page**
-  ![Services Page](app/screenshots/Services-Page.jpg)
+  ![Services Page](screenshots/Services-Page.jpg)
 
 * **Contact Page**
-  ![Contact Page](app/screenshots/Contact-Pag.png)
+  ![Contact Page](screenshots/Contact-Pag.png)
 
 ### Reusable UI Components
 * **Navigation Bar Component**
-  ![Navigation Bar](app/screenshots/Navigation-Bar.png)
+  ![Navigation Bar](screenshots/Navigation-Bar.png)
 
 * **Footer Component**
-  ![Footer Component](app/screenshots/Footer.png)
+  ![Footer Component](screenshots/Footer.png)
 
 ### Source Code Architecture
 * **Laravel Routes (`routes/web.php`)**
-  ![Route Definitions](app/screenshots/Routes.png)
+  ![Route Definitions](screenshots/Routes.png)
 
 * **Controller Implementation (`CompanyController.php`)**
-  ![Company Controller](app/screenshots/CompanyController.php.png)
+  ![Company Controller](screenshots/CompanyController.php.png)
 
 * **Master Blade Layout (`app.blade.php`)**
-  ![Blade Layout](app/screenshots/Blade.png)
+  ![Blade Layout](screenshots/Blade.png)
 
 * **Footer Component**
-  ![Footer Component](app/screenshots/Footer.png)
+  ![Footer Component](screenshots/Footer.png)
 
 ### Development Environment & Repository
 * **VS Code Project Workspace**
-  ![VS Code Project Workspace](app/screenshots/VS-Code-Project.png)
+  ![VS Code Project Workspace](screenshots/VS-Code-Project.png)
 
 * **Laravel Folder Structure**
-  ![Laravel Folder Structure](app/screenshots/Laravel-Folder-Structure.png)
+  ![Laravel Folder Structure](screenshots/Laravel-Folder-Structure.png)
 
 * **GitHub Repository & Commit History**
-  ![GitHub Repository](app/screenshots/GitHub-Repository.png)
+  ![GitHub Repository](screenshots/GitHub-Repository.png)
 
   ---
 
