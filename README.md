@@ -240,3 +240,20 @@ All application user interfaces, component layouts, and backend code screenshots
 
   ---
 
+## 10. Problems Encountered
+
+1. **Asset Path Resolution in Blade Views**: Initially, standard relative image paths (e.g., `img/filename.jpg`) broke when navigating to nested route endpoints or refreshing specific views, leading to broken image placeholders across the site[cite: 1].
+2. **Image Cropping Discrepancies**: High-resolution vertical digital art illustrations (*Lord Lu.jpg* and *splash-art.jpg*) were getting clipped and cropped ungracefully at top and bottom boundaries due to standard square container boundaries.
+3. **Tailwind CSS Custom Grid Styling**: Standard utility classes did not provide a subtle graph-paper or canvas-grid aesthetic matching the required custom red-and-black studio branding out of the box.
+
+---
+
+## 11. Solutions
+
+1. **Asset Helper Integration**: Replaced raw relative file paths with Laravel's built-in `asset('img/filename.jpg')` helper function, ensuring absolute URL path generation regardless of the active URL route[cite: 1].
+2. **Container Height and Scaling Adjustments**: Updated the service card containers to a taller fixed height (`h-[420px]`) and swapped `object-cover` for Tailwind's `object-contain` property, preserving aspect ratios and rendering full illustrations without cropping.
+3. **Custom Inline CSS Background**: Embedded a custom CSS background rule inside `app.blade.php` combining solid dark tones (`#0b0b0b`) with linear-gradient red grid line matrices (`rgba(220, 38, 38, 0.07)`).
+
+---
+
+
