@@ -197,46 +197,46 @@ All application user interfaces, component layouts, and backend code screenshots
 
 ### Web Application Pages
 * **Home Page**
-  ![Home Page](app/screenshots/Home-Page.png)
+![Home Page](week03-company-profile/screenshots/Home-Page.png)
 
 * **About Page**
-  ![About Page](app/screenshots/About-Page.png)
+![About Page](week03-company-profile/screenshots/About-Page.png)
 
 * **Services Page**
-  ![Services Page](app/screenshots/Services-Page.jpg)
+![Services Page](week03-company-profile/screenshots/Services-Page.png)
 
 * **Contact Page**
-  ![Contact Page](app/screenshots/Contact-Pag.png)
+![Contact Page](week03-company-profile/screenshots/Contact-Pag.png)
 
 ### Reusable UI Components
 * **Navigation Bar Component**
-  ![Navigation Bar](app/screenshots/Navigation-Bar.png)
+![Navigation Bar](week03-company-profile/screenshots/Navigation-Bar.png)
 
 * **Footer Component**
-  ![Footer Component](app/screenshots/Footer.png)
+![Footer Component](week03-company-profile/screenshots/Footer.png)
 
 ### Source Code Architecture
 * **Laravel Routes (`routes/web.php`)**
-  ![Route Definitions](app/screenshots/Routes.png)
+![Route Definitions](week03-company-profile/screenshots/Routes.png)
 
 * **Controller Implementation (`CompanyController.php`)**
-  ![Company Controller](app/screenshots/CompanyController.php.png)
+![Company Controller](week03-company-profile/screenshots/CompanyController.php.png)
 
 * **Master Blade Layout (`app.blade.php`)**
-  ![Blade Layout](app/screenshots/Blade.png)
+![Blade Layout](week03-company-profile/screenshots/Blade.png)
 
 * **Footer Component**
-  ![Footer Component](app/screenshots/Footer.png)
+![Footer Component](week03-company-profile/screenshots/Footer.png)
 
 ### Development Environment & Repository
 * **VS Code Project Workspace**
-  ![VS Code Project Workspace](app/screenshots/VS-Code-Project.png)
+![VS Code Project Workspace](week03-company-profile/screenshots/VS-Code-Project.png)
 
 * **Laravel Folder Structure**
-  ![Laravel Folder Structure](app/screenshots/Laravel-Folder-Structure.png)
+![Laravel Folder Structure](week03-company-profile/screenshots/Laravel-Folder-Structure.png)
 
 * **GitHub Repository & Commit History**
-  ![GitHub Repository](app/screenshots/GitHub-Repository.png)
+![GitHub Repository](week03-company-profile/screenshots/GitHub-Repository.png)
 
   ---
 
