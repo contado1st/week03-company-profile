@@ -225,7 +225,7 @@ All application user interfaces, component layouts, and backend code screenshots
 * **Master Blade Layout (`app.blade.php`)**
   ![Blade Layout](app/screenshots/Blade.png)
 
-  * **Footer Component**
+* **Footer Component**
   ![Footer Component](app/screenshots/Footer.png)
 
 ### Development Environment & Repository
