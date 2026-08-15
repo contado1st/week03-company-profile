@@ -179,3 +179,50 @@ Laravel’s native Blade Templating Engine allows developers to write clean temp
 
 ---
 
+## 8. Laravel Folder Structure
+
+The project adheres to professional Laravel directory conventions:
+* **`app/`**: Contains core application code, including `Http/Controllers/CompanyController.php`.
+* **`routes/`**: Houses routing definitions like `web.php`.
+* **`resources/`**: Contains raw assets, CSS, and Blade views (`views/layouts/`, `views/components/`, `views/pages/`).
+* **`public/`**: Accessible root folder containing compiled assets, user-uploaded studio images (`img/`), and the entry point `index.php`.
+* **`bootstrap/`**: Handles framework autoloader and bootstrap initialization scripts.
+* **`config/`**: Holds application configuration files (database, mail, services, etc.).
+
+---
+
+## 9. Screenshots
+
+All application user interfaces, component layouts, and backend code screenshots are located within the `app/screenshots/` directory:
+
+### Web Application Pages
+* **Home Page**
+  ![Home Page](app/screenshots/Home-Page.png)
+
+* **About Page**
+  ![About Page](app/screenshots/About-Page.png)
+
+* **Services Page**
+  ![Services Page](app/screenshots/Services-Page.jpg)
+
+* **Contact Page**
+  ![Contact Page](app/screenshots/Contact-Pag.png)
+
+### Reusable UI Components
+* **Navigation Bar Component**
+  ![Navigation Bar](app/screenshots/Navigation-Bar.png)
+
+* **Footer Component**
+  ![Footer Component](app/screenshots/Footer.png)
+
+### Source Code Architecture
+* **Laravel Routes (`routes/web.php`)**
+  ![Route Definitions](app/screenshots/Routes.png)
+
+* **Controller Implementation (`CompanyController.php`)**
+  ![Company Controller](app/screenshots/CompanyController.php.png)
+
+* **Master Blade Layout (`app.blade.php`)**
+  ![Blade Layout](app/screenshots/Blade.png)
+
+  ---
