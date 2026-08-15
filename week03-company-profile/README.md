@@ -194,47 +194,47 @@ The project adheres to professional Laravel directory conventions:
 ## 9. Screenshots
 
 All application user interfaces, component layouts, and backend code screenshots are located within the `app/screenshots/` directory:
-
+--
 ### Web Application Pages
 * **Home Page**
   ![Home Page](screenshots/Home-Page.png)
-
+--
 * **About Page**
   ![About Page](screenshots/About-Page.png)
-
+--
 * **Services Page**
   ![Services Page](screenshots/Services-Page.png)
-
+--
 * **Contact Page**
   ![Contact Page](screenshots/Contact-Pag.png)
-
+--
 ### Reusable UI Components
 * **Navigation Bar Component**
   ![Navigation Bar](screenshots/Navigation-Bar.png)
-
+--
 * **Footer Component**
   ![Footer Component](screenshots/Footer.png)
-
+--
 ### Source Code Architecture
 * **Laravel Routes (`routes/web.php`)**
   ![Route Definitions](screenshots/Routes.png)
-
+--
 * **Controller Implementation (`CompanyController.php`)**
   ![Company Controller](screenshots/CompanyController.php.png)
-
+--
 * **Master Blade Layout (`app.blade.php`)**
   ![Blade Layout](screenshots/Blade.png)
-
+--
 * **Footer Component**
   ![Footer Component](screenshots/Footer.png)
-
+--
 ### Development Environment & Repository
 * **VS Code Project Workspace**
   ![VS Code Project Workspace](screenshots/VS-Code-Project.png)
-
+--
 * **Laravel Folder Structure**
   ![Laravel Folder Structure](screenshots/Laravel-Folder-Structure.png)
-
+--
 * **GitHub Repository & Commit History**
   ![GitHub Repository](screenshots/GitHub-Repository.png)
 
